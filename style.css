@@ -44,7 +44,7 @@ grid-template-rows: 1rm;
     border-color: black 3px solid;  
 }
 
-/*
+
 h1{
     display:grid;
     font-family: none;
@@ -65,7 +65,7 @@ h1{
 }
 
 
-*/
+
 
 
  .header__logo{
@@ -75,7 +75,7 @@ h1{
     
 }
 
-/* Termina el Heder
+/* Termina el Heder*/
 
 .main{
 
@@ -117,7 +117,7 @@ border-radius: 20px black solid;
 footer{
     background-image: url(img/footer.webp);
     bottom: 200px;
-    background-size: cover; */
+    background-size: cover; 
 }
 
 
