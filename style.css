@@ -77,24 +77,21 @@ h1{
 
 /* Termina el Heder*/
 
-.main{
 
-
-
-
-}
+/*Empieza main--- con bienvenida*/
 
 .main-parrafo{
     position: flex;
     font-size: 16px;
     color: black;
     font-family: sans-serif;
-
+    overflow: hidden;
 }
 
 .video-main{
     display: flex;
-    align-items: center;
+    background-repeat: repeat;
+    
 }
 
 
@@ -112,20 +109,61 @@ border-radius: 20px black solid;
     text-align: right;
     margin-right: 60px;
     text-shadow:2px black 4px rgb(188, 135, 66);
+    overflow: hidden;
 } 
 
-footer{
-    background-image: url(img/footer.webp);
-    bottom: 200px;
-    background-size: cover; 
+h2{
+    display:grid;
+    font-family: none;
+    font-size: 25px;
+    text-shadow: 3px 3px 6px black;
+}
+/*Termina bienvenida*/
+
+/*Comienza "conocenos" y Nuestros productos*/
+
+
+h3{
+    display:grid;
+    font-family: none;
+    font-size: 25px;
+    text-shadow: 3px 3px 6px black;
 }
 
+.imgmain1{
+    display: block;
+margin: 0;
+    
+}
+/*termina conocenos y nuestros productos*/
 
-footer p {
+
+
+
+
+footer{
+    display:flex;
+    background-image: url(img/footer.webp);
+    min-height: 20vh;
+    background-size: contain; 
+    margin:none;
+    border: none;
+   
+}  /*Falta arreglar elementos del footer/ texto e imagenes en main/ videos*/
+
+h5{
+    display:flex;
+    font-size: 25px;
+    text-shadow: 3px 3px 6px black;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footerp {
     
     font-size: 20px;
 text-decoration-line: underline;
-    list-style-type: none;
+ list-style-type: none;
 padding-left: 10px;
 display: flex;
 height: 18px;
@@ -143,6 +181,15 @@ padding-bottom: none;
     gap: 70px;
 }
 
+.finalfooter{
+    display: flex;
+    text-align: center;
+    align-items: center;;
+    font-size:12px;
+    padding:130px;
+    border: blanchedalmond;
+
+}
 
 body{
 
@@ -155,23 +202,16 @@ body{
 
 
 
-h3{
-    text-align:center;
-    font-size: 30px;
-}
 
 
 
-h5{
-    text-align: center;
-    align-items: center;
-color: beige;
-    font-size: 30PX; 
-}
 
+
+/*
 form{
+    display: flex;
 text-align: right;
-font-size: 10px;
+font-size: 8px;
 margin-bottom: 20px;
 }
 
