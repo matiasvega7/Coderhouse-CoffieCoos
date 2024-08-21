@@ -3,7 +3,7 @@
     border: 0;
     padding: 0;
     font-size: 100;
-    
+    box-sizing: border-box;
 }
  
 
@@ -128,11 +128,13 @@ h3{
     font-family: none;
     font-size: 25px;
     text-shadow: 3px 3px 6px black;
+    justify-content: center;
 }
 
 .imgmain1{
     display: block;
-margin: 0;
+ z-index: -1;
+
     
 }
 /*termina conocenos y nuestros productos*/
@@ -144,53 +146,29 @@ margin: 0;
 footer{
     display:flex;
     background-image: url(img/footer.webp);
-    min-height: 20vh;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 100px;;
     background-size: contain; 
-    margin:none;
-    border: none;
-   
-}  /*Falta arreglar elementos del footer/ texto e imagenes en main/ videos*/
-
-h5{
-    display:flex;
-    font-size: 25px;
-    text-shadow: 3px 3px 6px black;
-    flex-direction: column;
+    border-style: groove;
     text-align: center;
-}
+    justify-content:space-between;
 
-.footerp {
-    
-    font-size: 20px;
-text-decoration-line: underline;
- list-style-type: none;
-padding-left: 10px;
-display: flex;
-height: 18px;
-margin-bottom:none;
+}  
 
-}
 
-.redes{
-    margin-bottom: none;
-padding-bottom: none;
-    align-items:center;
-    display: flex;
-    justify-content: right;
-    background-size: contain;
-    gap: 70px;
-}
+    /*Falta arreglat texto de las redes y todo el footer. Hay que disminuir carrucel. organizar las letras*/
 
 .finalfooter{
-    display: flex;
-    text-align: center;
-    align-items: center;;
-    font-size:12px;
-    padding:130px;
-    border: blanchedalmond;
+    display:contents;
+    font-weight: bold;
+     ;
+         
 
+
+          
 }
-
 body{
 
     background-color: rgb(184, 167, 145);
