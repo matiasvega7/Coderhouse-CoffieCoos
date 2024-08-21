@@ -12,7 +12,7 @@
     display:flex;
     height: 150px;
     width: 100%;
-    background-image:url(img/d2a424d8-e178-4a29-8b96-200c16348826.jpg);
+    background-image:url(../img/d2a424d8-e178-4a29-8b96-200c16348826.jpg);
     background-size:contain;
    justify-content: space-between;
    align-items:center;
@@ -134,9 +134,13 @@ h3{
 .imgmain1{
     display: block;
  z-index: -1;
-
-    
 }
+
+.carrusel{
+width: 400px;
+padding: 2rem;
+}
+
 /*termina conocenos y nuestros productos*/
 
 
@@ -145,7 +149,7 @@ h3{
 
 footer{
     display:flex;
-    background-image: url(img/footer.webp);
+    background-image: url(../img/footer.webp);
     bottom: 0;
     left: 0;
     width: 100%;
@@ -158,17 +162,16 @@ footer{
 }  
 
 
-    /*Falta arreglat texto de las redes y todo el footer. Hay que disminuir carrucel. organizar las letras*/
-
+    /*Falta arreglat texto de las redes y todo el footer. Hay que disminuir carrucel. organizar las 
 .finalfooter{
     display:contents;
-    font-weight: bold;
-     ;
-         
-
-
-          
+    font-size: 16px;
+    color: #f5f5dcce;
+    font-weight: 200;
+    flex-wrap: initial;
 }
+
+
 body{
 
     background-color: rgb(184, 167, 145);
