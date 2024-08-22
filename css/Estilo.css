@@ -118,6 +118,50 @@ h2{
     font-size: 25px;
     text-shadow: 3px 3px 6px black;
 }
+
+
+
+.card-1{
+    position: relative;
+    left: 200px;
+    width: 800px;
+    border: #f5f5dc39 solid 4px;
+    justify-items: center;
+    align-items: center;
+    padding: 3px;
+}
+
+
+
+.card-title{
+font-size: 34px;
+text-align: center;
+text-decoration: dashed;
+color: rgba(0, 0, 0, 0.538);
+
+}
+
+.card-text{
+    font-size: 20px;
+}
+
+
+.card-2{
+    position: relative;
+    left: 200px;
+    width: 800px;
+    border: #f5f5dc39 solid 4px;
+    padding: 3px;
+    background-color: aliceblue;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+
+
+
 /*Termina bienvenida*/
 
 /*Comienza "conocenos" y Nuestros productos*/
@@ -138,14 +182,14 @@ h3{
 
 .carrusel{
 width: 400px;
-padding: 2rem;
+display: flex;
 }
 
 /*termina conocenos y nuestros productos*/
 
 
 
-
+/*comienza el Footer*/
 
 footer{
     display:flex;
@@ -191,7 +235,8 @@ body{
 
     background-color: rgb(184, 167, 145);
     backface-visibility: visible;
-    background-blend-mode: luminosity;
+    background-blend-mode:hard-light;
+    
 }
 
 
