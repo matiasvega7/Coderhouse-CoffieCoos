@@ -153,24 +153,39 @@ footer{
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 100px;;
+    height: 200px;
     background-size: contain; 
     border-style: groove;
     text-align: center;
     justify-content:space-between;
-
+    position: relative;
 }  
 
 
-    /*Falta arreglat texto de las redes y todo el footer. Hay que disminuir carrucel. organizar las 
-.finalfooter{
-    display:contents;
-    font-size: 16px;
-    color: #f5f5dcce;
-    font-weight: 200;
-    flex-wrap: initial;
+.redes{
+  position:relative;
+  bottom: 40px;
+  left: 1100px;
+  display: grid;
+  color:antiquewhite;
+  border-radius: 40px;
+  position: fixed;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
 }
 
+   
+.finalfooter{
+    position: absolute;
+    bottom: 0px;
+    left:40%;
+    transform: translate(center);
+    font-size: 14px;
+    color: #f5f5dcce;
+    font-weight:bold;
+    
+}
 
 body{
 
@@ -188,26 +203,21 @@ body{
 
 
 
-/*
-form{
-    display: flex;
+
+.formulario{
+    display:block;
 text-align: right;
-font-size: 8px;
-margin-bottom: 20px;
+font-size: 12px;
+margin-right: 20px;
+padding: 3px;
+text-decoration: solid;
+color: aliceblue;
+
+
 }
 
 label{
-    font-size: 20px;
-}
-button{
-    font-size: 20px;
-    border-color: blue;
-    width: 100px;
-    height: 50px;
-    image-orientation: from-image;
+    font-size: 12px;
+    padding: 10px;  
 }
 
- .finalfooter{
-
- 
-} 
