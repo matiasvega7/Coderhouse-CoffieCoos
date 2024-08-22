@@ -4,6 +4,7 @@
     padding: 0;
     font-size: 100;
     box-sizing: border-box;
+    flex-wrap: wrap;
 }
  
 
@@ -94,23 +95,14 @@ h1{
     
 }
 
-
-
-.imgmain1{
-border-radius: 20px black solid;
-   position: relative; 
-   margin-left: 400px ;
-}
-
-
-
-.mainparrafo{
+.main-parrafo{
     border-color: aliceblue;
     text-align: right;
     margin-right: 60px;
     text-shadow:2px black 4px rgb(188, 135, 66);
     overflow: hidden;
 } 
+
 
 h2{
     display:grid;
@@ -166,23 +158,77 @@ color: rgba(0, 0, 0, 0.538);
 
 /*Comienza "conocenos" y Nuestros productos*/
 
+.conocer{
+    display:flex;
+    font-size: 30px;
+    text-shadow: 3px 3px 6px black;
+    justify-content: center;
+    text-align:  center;
+}
+/* Nuestros productos*/
 
 h3{
-    display:grid;
-    font-family: none;
-    font-size: 25px;
+    display:flex;
+    max-width: 100%;
+    font-size: 30px;
     text-shadow: 3px 3px 6px black;
+    text-align: center;
     justify-content: center;
 }
 
-.imgmain1{
-    display: block;
- z-index: -1;
+.main3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.carrusel{
-width: 400px;
-display: flex;
+.colum{
+    border: black 4px solid;
+    margin:20px;
+}
+
+
+main div img{
+    max-width: 100%;
+    height: auto;;
+    flex-wrap: wrap;
+}
+
+.parrafo{
+    display: flex;
+    text-align: justify;
+    align-self: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin: 8px;
+}
+
+
+.img-main1{
+  display:flex;
+  position: relative;
+  left:300px;
+  border: 3px black solid;
+  background-image: url(../img/fondo\ 1.jpg);
+  max-width: 50%;
+ flex-wrap: wrap;
+}
+
+
+.img-main2{
+    max-width:40%;
+    display:flex;
+    position: relative;
+    left: 30% ;
+    border:3px #191616 solid;
+    background-image: url(../img/descarga.jpeg);
+    flex-wrap: wrap;
+}
+
+.termina{
+   display: flex;
+   position: relative;
+   left: 600px;
+   
 }
 
 /*termina conocenos y nuestros productos*/
@@ -231,11 +277,12 @@ footer{
     
 }
 
-body{
+.body{
 
     background-color: rgb(184, 167, 145);
     backface-visibility: visible;
     background-blend-mode:hard-light;
+    float: left;
     
 }
 
