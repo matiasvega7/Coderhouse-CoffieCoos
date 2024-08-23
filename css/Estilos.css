@@ -8,7 +8,7 @@
 }
  
 
-
+/*Empieza Header*/
 .header{
     display:flex;
     height: 150px;
@@ -42,7 +42,8 @@ grid-template-rows: 1rm;
 
 
 .navar:hover{
-    border-color: black 3px solid;  
+    border-color: black 3px solid; 
+    cursor: pointer; 
 }
 
 
@@ -52,9 +53,7 @@ h1{
     font-size: 38px;
     text-shadow: 3px 3px 6px black;
 }
-
-
-    
+   
 
 .description-inicio{
 
@@ -64,9 +63,6 @@ h1{
     text-shadow: 3px 3px 6px black;
     text-align: center;
 }
-
-
-
 
 
  .header__logo{
@@ -103,15 +99,12 @@ h1{
     overflow: hidden;
 } 
 
-
 h2{
     display:grid;
     font-family: none;
     font-size: 25px;
     text-shadow: 3px 3px 6px black;
 }
-
-
 
 .card-1{
     position: relative;
@@ -123,7 +116,10 @@ h2{
     padding: 3px;
 }
 
-
+.card-1:hover{
+    background-color: rgb(246, 240, 133);
+    cursor: pointer;
+}
 
 .card-title{
 font-size: 34px;
@@ -137,6 +133,10 @@ color: rgba(0, 0, 0, 0.538);
     font-size: 20px;
 }
 
+.card-2:hover{
+    background-color: rgb(246, 240, 133);
+    cursor: pointer;
+}
 
 .card-2{
     position: relative;
@@ -149,12 +149,9 @@ color: rgba(0, 0, 0, 0.538);
     align-items: center;
 }
 
-
-
-
-
-
 /*Termina bienvenida*/
+
+
 
 /*Comienza "conocenos" y Nuestros productos*/
 
@@ -185,7 +182,10 @@ h3{
     border: black 4px solid;
     margin:20px;
 }
-
+.colum:hover{
+     background-color:color-mix(in srgb, #7c9191 10%, rgb(218, 176, 218) 10%);
+     cursor: pointer;
+}
 
 main div img{
     max-width: 100%;
