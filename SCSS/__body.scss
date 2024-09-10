@@ -1,0 +1,11 @@
+.body{
+    width: 100%;
+    height:100%;
+    background-image: url(../img/fondo\ body.jpg);
+    background-repeat: repeat;
+    backface-visibility: visible;
+    float: left;
+    font-size:18px;
+    color:$claro;
+    background-color:$oscuros;  
+}

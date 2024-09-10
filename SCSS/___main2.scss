@@ -1,0 +1,62 @@
+.main2{
+    .conocer{
+   display:flex;
+   font-size: 30px;
+   text-shadow: 3px 3px 6px #2a2cc4;
+   position: relative;
+   left: 500px;
+   padding-top: 200px;}
+
+    
+
+   .main-parrafo4{
+       display: flex;    
+       font-size: 18px;
+       border-color: #111213;
+       text-align: right;
+       margin-right:0;
+       text-shadow: 2px 2px  4px rgb(154, 68, 118);
+       float: right;
+       overflow: hidden;
+       text-wrap: wrap;
+   }
+   .img-main1{
+       display:flex;
+       position: relative;
+       left:300px;
+       border: 3px black solid;
+       background-image: url(../img/fondo\ 1.jpg);
+       max-width: 50%;
+      flex-wrap: wrap;
+   }
+
+   .main-parrafo5{
+       display: flex;    
+   font-size: 18px;
+   border-color: #111213;
+   text-align: right;
+   margin-right:0;
+   text-shadow: 2px 2px  4px rgb(154, 68, 118);
+   float: right;
+   overflow: hidden;
+   text-wrap: wrap;
+   }
+
+   .img-main2{
+       max-width:40%;
+   display:flex;
+   position: relative;
+   left: 30% ;
+   border:3px #191616 solid;
+   background-image: url(../img/descarga.jpeg);
+   flex-wrap: wrap;
+
+   }
+   .h5{ 
+   font-size: 27px;
+   display:flex;
+   text-align: center;
+   justify-content: center;
+   text-shadow: 4px  4px 6px #32302a
+   }
+}

@@ -1,0 +1,87 @@
+header { 
+    display: grid;
+    grid-template-columns: 0.8rm 1rm 1rm;
+    grid-template-rows: 1rm;
+    
+
+    .header{
+        display:flex;
+        height: 150px;
+        width: 100%;
+        background-image:url(../img/d2a424d8-e178-4a29-8b96-200c16348826.jpg);
+        background-size:contain;
+       justify-content: space-between;
+       align-items:center;
+       color: $claro;
+       border: $negro 2px solid;
+       position: fixed;
+       z-index: 1;
+            .link_logo{
+                .header_logo{ 
+                    display:flex;
+                    width: 120px;
+                     border-radius: 100px; }   }
+
+            .nombre{ display:grid;
+             font-family: none;
+            font-size: 38px;
+            text-decoration: dotted $cafe $azul 3px}
+        
+            .navbar{
+                 .enlace{ 
+                     color:$claro;
+                     display: inline-block;
+                     justify-content: center;
+                     text-align: center;
+                    text-shadow: $oscuros 2px 1px; }
+                .enlace{ 
+                    color: $claro;
+                     display: inline-block;
+                    justify-content: center;
+                     text-align: center;
+                     text-shadow: $oscuros 2px 1px; }
+                 .enlace{ 
+                     color: $claro;
+                    display: inline-block;
+                     justify-content: center;
+                    text-align: center;
+                     text-shadow: $oscuros 2px 1px; }
+                .enlace{ 
+                     color: $claro;
+                     display: inline-block;
+                    justify-content: center;
+                     text-align: center;
+                    text-shadow: $oscuros 2px 1px; 
+
+                    &:hover{border-color: $negro 3px solid; 
+                     cursor: pointer; }}
+      
+              }}
+        
+    .hamburguesa{
+    display: none; 
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+            span{display: block;
+                width: 25px;
+                height: 3px;
+                background-color:$blanco;
+                margin: 3px 0;}
+            span{display: block;
+                width: 25px;
+                height: 3px;
+                background-color: $blanco;
+                margin: 3px 0;}
+            span{display: block;
+                width: 25px;
+                height: 3px;
+                background-color: $blanco;
+                margin: 3px 0;}
+            }
+        
+        
+    }      
+
+      

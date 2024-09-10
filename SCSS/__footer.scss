@@ -1,0 +1,41 @@
+
+.footer{
+    display:flex;
+    background-image: url(../img/footer.webp);
+    width: 100%;
+    height: 300px;
+    background-size: contain; 
+    border-style:solid;
+    text-align: center;
+    justify-content:space-between;
+    .redes{
+        position:relative;
+        bottom: 40px;
+        left: 11px;
+        display: grid;
+        color:$cafe;
+        border-radius: 40px;
+        position: fixed;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 1;
+    
+        &:hover{ 
+            background-color:$claro;
+            cursor: pointer;
+        }
+    } 
+      
+        
+      
+    
+    .final-footer{
+        display: flex;
+        color: $claro;
+        flex-direction: row 2fr;
+        position: relative;
+        right: 460px;
+        top: 60%;
+    }
+
+}

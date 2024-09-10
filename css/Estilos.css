@@ -1,14 +1,6 @@
-*{
-    margin: 0;
-    border: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-    
-}
- 
 
-/*Empieza Header*/
+
+/*------Empieza Header-------*/
 .header{
     display:flex;
     height: 150px;
@@ -17,8 +9,8 @@
     background-size:contain;
    justify-content: space-between;
    align-items:center;
-   color: aliceblue;
-   border: black 2px solid;
+   color: #f0f8ff;
+   border: #000000 2px solid;
    position: fixed;
  
    z-index: 1;
@@ -31,7 +23,7 @@ grid-template-rows: 1rm;
  }
 
 .hamburguesa{
-    display: none; /* Mantener el menu oculto por ahora */
+    display: none;  
     cursor: pointer;
     flex-direction: column;
     justify-content: space-between;
@@ -42,7 +34,7 @@ grid-template-rows: 1rm;
     display: block;
     width: 25px;
     height: 3px;
-    background-color: white;
+    background-color: #ffffff;
     margin: 3px 0;}
 
 .enlace{
@@ -51,12 +43,12 @@ grid-template-rows: 1rm;
     display: inline-block;
     justify-content: center;
     text-align: center;
-   text-shadow: rgb(26, 15, 15) 2px 1px; 
+   text-shadow: #1a0f0f 2px 1px; 
 }
 
 
 .navar:hover{
-    border-color: black 3px solid; 
+    border-color: #000000 3px solid; 
     cursor: pointer; 
 }
 
@@ -73,24 +65,24 @@ text-decoration: dotted #ffe3c1 #3d94e0 3px;
     display:grid;
     font-family: none;
     font-size: 38px;
-    text-shadow: 3px 3px 6px rgb(4, 4, 5);
+    text-shadow: 3px 3px 6px #040405;
     text-align: center;
 }
+*/
 
-
- .header__logo{
+/* .header__logo{
    display:flex;
    width: 120px;
     border-radius: 100px;
     
-}
+*/
 
 /* Termina el Heder*/
 
 
 /*Empieza main--- con bienvenida*/
 
-.main-parrafo{
+/*.main-parrafo{
 
     display: flex;
     font-size: 18px;
@@ -100,7 +92,7 @@ text-decoration: dotted #ffe3c1 #3d94e0 3px;
     max-width: 100%;
     white-space: normal;
     float:right;;
-    text-decoration: 2px 3px 5px rgb(199, 117, 203);
+    text-decoration: 2px 3px 5px #c775cb;
    text-wrap: wrap;
 
 }
@@ -168,7 +160,7 @@ color: rgba(0, 0, 0, 0.538);
 
 
 
-/*Comienza "conocenos" y Nuestros productos*/
+/*Comienza "conocenos" y Nuestros productos
 
 .conocer{
     display:flex;
@@ -208,7 +200,11 @@ color: rgba(0, 0, 0, 0.538);
     text-wrap: wrap;
 }
 
-/* Nuestros productos*/
+Nuestros productosmain div img{
+    max-width: 100%;
+    height: auto;;
+    flex-wrap: wrap;
+
 
 h3{
     display:flex;
@@ -294,7 +290,7 @@ h5{
 
 /*termina conocenos y nuestros productos*/
 /*Empieza contactos*/
-
+/*
 
 .formulario-2{
 
@@ -356,10 +352,10 @@ padding: 5px;}
 
      
 
-/*-------Termina Contacto*/
+------Termina Contacto
 
 
-/*comienza el Footer*/
+----comienza el Footer
 
 footer{
     
@@ -412,20 +408,6 @@ footer{
 
 
 
-    .body{
-
-        width: 100%;
-        height:100%;
-        background-image: url(../img/fondo\ body.jpg);
-        background-repeat: repeat;
-        backface-visibility: visible;
-        float: left;
-        font-size:18px;
-        color: #f0f8ff;
-        background-color: #1a1310;
-       
-        
-    }
     
 
 

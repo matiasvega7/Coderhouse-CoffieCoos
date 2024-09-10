@@ -1,0 +1,95 @@
+.main{
+    .description-inicio{
+        
+    display:grid;
+    font-family: none;
+    font-size: 38px;
+    text-shadow: 3px 3px 6px $oscuros;
+    text-align: center;
+
+    }
+
+    .card-1{
+        display: block;
+        position: relative;
+        left: 200px;
+        width: 60%;
+        border: $gris solid 4px;
+        justify-items: center;
+        align-items: center;
+        padding: 3px;
+                .card-title{
+                    font-size: 34px;
+                    text-align: center;
+                    text-decoration: dashed;
+                    color: $oscuros;
+                }
+                .card-text{
+                    font-size: 20px;
+                }
+
+    }           
+
+    .card-1:hover{
+        background-color: $claro;
+        cursor: pointer;
+    }
+    
+    .card-2{
+        display: block;
+    position: relative;
+    left: 200px;
+    width: 60%;
+    border: $gris solid 4px;
+    padding: 3px;
+    background-color: $claro;
+    justify-items: center;
+    align-items: center;
+                .card-title{
+                    font-size: 34px;
+                    text-align: center;
+                    text-decoration: dashed;
+                    color: $oscuros;
+                }
+                .card-text{
+                     font-size: 20px;
+                }
+    }
+
+    .card-2:hover{
+    background-color:$claro;
+    cursor: pointer;}
+
+    
+     .main-parrafo{
+        display: flex;
+        font-size: 18px;
+        color: $oscuros;
+        text-decoration: solid;
+        font-family: sans-serif;
+        max-width: 100%;
+        white-space: normal;
+        float:right;
+        text-decoration: 2px 3px 5px $rosa;
+       text-wrap: wrap;
+    
+     }
+    .main-parrafo2{
+        display: flex;
+    font-size: 17px;
+    color: $oscuros;
+    text-decoration: solid;
+    font-family: sans-serif;
+    float:right;
+    text-decoration: 2px 3px 5px $rosa;
+    text-wrap: wrap;
+    white-space: normal;
+    }
+    .main-video2{
+        max-width: 100%;
+        height: auto;
+    }
+    .main-parrafo3{
+        text-transform: none;
+    }
+}

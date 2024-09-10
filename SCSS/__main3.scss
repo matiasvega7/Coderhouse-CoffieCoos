@@ -1,0 +1,77 @@
+
+h3{ display:flex;
+    max-width: 100%;
+    font-size: 30px;
+    text-shadow: 6px 3px 5px $azul;
+    text-align: center;
+    justify-content: center;
+        .parrafo{
+            display: flex;
+            color: $claro;
+            text-decoration: solid;
+            text-align: justify;
+            align-self: center;
+            overflow: hidden;
+            flex-wrap: wrap;
+            margin:2px;
+            text-wrap:wrap ;
+            font-size: 18px;
+        }            
+
+}
+
+.main3{
+    display: grid;
+    grid-template-columns: 1fr  1fr  1fr;
+    margin:none;
+        .colum{
+             border: $negro 3px solid;
+             padding: 2px;
+         &:hover{
+             background-color:$verdoso;
+             cursor: pointer;
+             transform: scale3d( top, 1.2, 1.2, 1.2)
+     }
+         .h4{text-decoration: solid;}
+         .img{
+            max-width: 100%;
+            height: auto;;
+            flex-wrap: wrap;
+         }
+ 
+    }
+
+     .trans2{
+          .colum{
+            border: $negro 3px solid;
+            padding: 2px;}
+
+          &:hover{
+            background-color:$verdoso;
+            cursor: pointer;
+            transform: scale3d( top, 1.2, 1.2, 1.2)}
+          
+         .h4{
+            text-decoration: solid} 
+          img{
+            max-width: 100%;
+             height: auto;;
+             flex-wrap: wrap;
+          }                        
+         }  
+
+        .colum{
+            border: $negro 3px solid;
+             padding: 2px;
+         &:hover{
+            background-color:$verdoso;
+             cursor: pointer;
+            transform: scale3d( top, 1.2, 1.2, 1.2)}
+    
+    }
+         .main div img{
+             max-width: 100%;
+             height: auto;;
+             flex-wrap: wrap;
+   }
+}
